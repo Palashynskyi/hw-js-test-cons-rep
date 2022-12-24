@@ -1,11 +1,14 @@
-const clients = ["Mango", "Ajax", "Poly"];
+function calculateEngravingPrice(message, pricePerWord) {
+   // Change code below this line
+  
+  const splitMessadge = message.split(" ");
+  console.log(splitMessadge)
+  const wordAmount = splitMessadge.length;
+  console.log(wordAmount)
+  const totalPrice = wordAmount * pricePerWord;
+  //  console.log(totalPrice)
+  return totalPrice;
 
-for (const client of clients) {
-  console.log(client);
 }
 
-const string = "javascript";
-
-for (const character of string) {
-  console.log(character);
-}
+calculateEngravingPrice('Web-development is creative work', 20) 
