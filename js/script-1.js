@@ -1,14 +1,11 @@
-function calculateEngravingPrice(message, pricePerWord) {
-   // Change code below this line
-  
-  const splitMessadge = message.split(" ");
-  console.log(splitMessadge)
-  const wordAmount = splitMessadge.length;
-  console.log(wordAmount)
-  const totalPrice = wordAmount * pricePerWord;
-  //  console.log(totalPrice)
-  return totalPrice;
-
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+    for (let i = 0; i < order.length; index += 1) 
+        total += order[i];
+    
+  // Change code above this line
+  return total;
 }
 
-calculateEngravingPrice('Web-development is creative work', 20) 
+calculateTotalPrice([12, 85, 37, 4])
