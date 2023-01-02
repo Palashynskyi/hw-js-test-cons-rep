@@ -1,11 +1,16 @@
-function calculateTotalPrice(order) {
-  let total = 0;
-  // Change code below this line
-    for (let i = 0; i < order.length; index += 1) 
-        total += order[i];
+function filterArray(numbers, value) {
+   // Change code below this line
+  const bigNumber = [];
+    for (let i = numbers; i > value; i += 1) 
+            
+  console.log([i])
+   
     
+  
+
+
+
   // Change code above this line
-  return total;
 }
 
-calculateTotalPrice([12, 85, 37, 4])
+filterArray([1, 2, 3, 4, 5, 6, 7], 5) 

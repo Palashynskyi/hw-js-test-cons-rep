@@ -1,5 +1,14 @@
-const planets = ["Earth", "Mars", "Venus"];
+function createArrayOfNumbers(min, max) {
+  const numbers = [];
+  // Change code below this line
 
-for (let i = 0; i < planets.length; i += 1) {
-  console.log(planets[i]);
+    for (let i = min; i <= max; i += 1) 
+    numbers.push(i);
+    
+  // Change code above this line
+    console.log(numbers)
+    return numbers;
+    
 }
+
+createArrayOfNumbers(1, 3)
